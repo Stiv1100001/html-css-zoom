@@ -10,3 +10,56 @@
 .flexbox-container {
     display: flex;
 }
+
+/* Color utility */
+.bg-black {
+    background-color: black;
+}
+
+.bg-gray {
+    background-color: rgb(34, 34, 34);
+}
+
+.text-white {
+    color: white;
+}
+
+/* Body */
+body {
+    font-family: sans-serif;
+}
+
+
+/* Main blocks */
+header {
+    height: 5vh;
+}
+
+main {
+    height: 85vh;
+    overflow-y: auto;
+}
+
+footer {
+    height: 10vh;
+}
+
+/* Header */
+header a {
+    font-size: 12px;
+    color: white;
+    background-color: gray;
+    text-decoration: none;
+    margin: 0 .5rem;
+    padding: .2rem 0.2rem;
+    border-radius: 2px;
+}
+
+a i.fas.fa-th {
+    margin-right: 5px;
+}
+
+.header-flex {
+    justify-content: end;
+    align-items: center;
+}
