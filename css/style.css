@@ -11,6 +11,10 @@
     display: flex;
 }
 
+.full-height {
+    height: 100%;
+}
+
 /* Color utility */
 .bg-black {
     background-color: black;
@@ -20,8 +24,20 @@
     background-color: rgb(34, 34, 34);
 }
 
+.bg-lightgray {
+    background-color: rgb(74, 74, 74);
+}
+
 .text-white {
     color: white;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-green {
+    color: rgb(73, 200, 0);
 }
 
 /* Body */
@@ -36,19 +52,18 @@ header {
 }
 
 main {
-    height: 85vh;
+    height: 87vh;
     overflow-y: auto;
 }
 
 footer {
-    height: 10vh;
+    height: 8vh;
 }
 
 /* Header */
 header a {
     font-size: 12px;
     color: white;
-    background-color: gray;
     text-decoration: none;
     margin: 0 .5rem;
     padding: .2rem 0.2rem;
@@ -61,5 +76,44 @@ a i.fas.fa-th {
 
 .header-flex {
     justify-content: end;
+    align-items: center;
+}
+
+
+/* Footer */
+footer a {
+    color: white;
+}
+
+.footer-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-btn {
+    flex-flow: column;
+    text-align: center;
+    justify-content: center;
+    padding: .3rem;
+    margin: 0 .3rem;
+}
+
+.footer-btn i {
+    font-size: 1.4rem;
+    margin-bottom: .3rem;
+}
+
+.footer-btn p {
+    font-size: .6rem;
+    margin-bottom: .3rem;
+}
+
+.arrow-up {
+    font-size: 8px;
+    align-items: center;
+}
+
+#end-meeting {
+    padding: 0.5rem;
     align-items: center;
 }
