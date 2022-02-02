@@ -11,6 +11,10 @@
     display: flex;
 }
 
+.relative {
+    position: relative;
+}
+
 .full-height {
     height: 100%;
 }
@@ -79,6 +83,34 @@ a i.fas.fa-th {
     align-items: center;
 }
 
+/* Main */
+.main-container {
+    width: 95%;
+    margin: 0 auto;
+    column-gap: .3rem;
+    row-gap: .6rem;
+    flex-wrap: wrap;
+}
+
+.user-view {
+    width: 13vw;
+    height: 15vh;
+}
+
+.user-view img {
+    width: 100%;
+    height: 100%;
+}
+
+.user-view a {
+    text-decoration: none;
+    font-size: 10px;
+    background-color: rgba(74, 74, 74, 0.6);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: .2rem;
+}
 
 /* Footer */
 footer a {
